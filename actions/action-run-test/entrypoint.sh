@@ -20,6 +20,7 @@
 
 # rbenv install 2.5.3
 # rbenv global 2.5.3
-echo 'export PATH="/ruby-2.5.1/bin:$PATH"' >> ~/.bashrc
-exec $SHELL
+echo $PATH
+echo $PATH
+/bin/bash
 ruby -v
