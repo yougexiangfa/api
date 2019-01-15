@@ -1,0 +1,8 @@
+export PATH="/home/zyh/.rvm/gems/ruby-2.5.1@global/bin:/home/zyh/.rvm/rubies/ruby-2.5.1/bin:$PATH"
+export GEM_HOME='/home/zyh/.rvm/gems/ruby-2.5.1@global'
+export GEM_PATH='/home/zyh/.rvm/gems/ruby-2.5.1@global'
+export MY_RUBY_HOME='/home/zyh/.rvm/rubies/ruby-2.5.1'
+export IRBRC='/home/zyh/.rvm/rubies/ruby-2.5.1/.irbrc'
+unset MAGLEV_HOME
+unset RBXOPT
+export RUBY_VERSION='ruby-2.5.1'

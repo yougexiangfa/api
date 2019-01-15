@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+if
+  [[ -s "/home/zyh/.rvm/gems/ruby-2.5.1@global/environment" ]]
+then
+  source "/home/zyh/.rvm/gems/ruby-2.5.1@global/environment"
+  exec rake "$@"
+else
+  echo "ERROR: Missing RVM environment file: '/home/zyh/.rvm/gems/ruby-2.5.1@global/environment'" >&2
+  exit 1
+fi

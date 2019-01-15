@@ -1,0 +1,14 @@
+current directory: /home/zyh/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/gem-wrappers-1.4.0/ext/wrapper_generator
+/home/zyh/.rvm/rubies/ruby-2.5.1/bin/ruby -r ./siteconf20180831-30528-gmja2d.rb extconf.rb
+
+current directory: /home/zyh/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/gem-wrappers-1.4.0/ext/wrapper_generator
+make "DESTDIR=" clean
+make: *** No rule to make target 'clean'.  Stop.
+
+current directory: /home/zyh/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/gem-wrappers-1.4.0/ext/wrapper_generator
+make "DESTDIR="
+make: Nothing to be done for 'all'.
+
+current directory: /home/zyh/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/gem-wrappers-1.4.0/ext/wrapper_generator
+make "DESTDIR=" install
+make: Nothing to be done for 'install'.
